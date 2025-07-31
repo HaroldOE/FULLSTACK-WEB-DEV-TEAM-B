@@ -1,9 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
-
 /* font-family: "Kaushan Script", cursive; */
-
-body{
-    font-family: "Kaushan Script", cursive;
-    
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  font-family: "Kaushan Script", cursive;
+}
+
+.navbar {
+  background-color: #000;
+    padding: 30px;
+    height: 50px;
+}
+
+.hero {
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+    display: block;
+    width: 80px;
+    height: 60px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ 
