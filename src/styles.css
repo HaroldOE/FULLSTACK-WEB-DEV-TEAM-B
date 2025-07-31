@@ -10,4 +10,35 @@ body{
 
 .navbar {
     background-color: black;
+    padding: 30px;
+    height: 50px;
 }
+
+.hero {
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+    display: block;
+    width: 80px;
+    height: 60px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ 
