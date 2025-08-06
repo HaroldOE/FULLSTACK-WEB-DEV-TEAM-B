@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact</title>
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow">
+      <div
+        class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16"
+      >
+        <!-- Logo / Brand -->
+        <a href="#" class="flex items-center">
+          <img
+            src="../assets/img/logo.png"
+            alt="YourBrand logo"
+            class="h-8 w-auto"
+          />
+        </a>
+
+        <!-- Links -->
+        <div class="hidden md:block">
+          <ul class="flex gap-8 text-gray-700 font-medium">
+            <li><a href="#" class="hover:text-indigo-600">Home</a></li>
+            <li><a href="#" class="hover:text-indigo-600">About</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Recipes</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Blog</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Page</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="flex items-center gap-4">
+          <form action="#" class="relative">
+            <label for="nav-search" class="sr-only">Search</label>
+            <input
+              id="nav-search"
+              type="text"
+              placeholder="Search..."
+              class="pl-4 pr-10 py-2 border border-gray-300 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+            <button
+              type="submit"
+              aria-label="Submit search"
+              class="absolute right-1 top-1.5 p-1 rounded-full hover:bg-gray-50"
+            >
+              <!-- Simple magnifying glass icon (SVG) -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 text-gray-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1116.65 16.65z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero with background image -->
+    <section
+      class="relative flex items-center justify-center text-center text-white h-[60vh] bg-cover bg-center"
+      style="background-image: url('../assets/img/banner.png')"
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-3xl px-6">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Contact Us</h1>
+      </div>
+    </section>
+
+    <!-- (Further content like contact form would go here) -->
+  </body>
 </html>
