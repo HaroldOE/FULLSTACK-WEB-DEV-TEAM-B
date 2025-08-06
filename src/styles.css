@@ -12,21 +12,15 @@
   font-family: "Kaushan Script", cursive;
 } */
 
-.all-lists ul {
-  /* display: block; */
+.navbar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 40px;
-  list-style: none;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgb(255, 228, 196);
 }
 
-.lists li a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-}
 
 .cta i {
   display: flex;
@@ -36,45 +30,18 @@
   color: black;
 }
 
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.hero-nav {
-  position: relative;
-}
-
-.hero-nav > img {
-  width: 100%;
-  max-width: 100%;
-  height: 100vh;
-}
-
-.navbar {
-  position: absolute;
-  background-color: rgb(255, 228, 196, 1);
-  padding: 25px;
-  z-index: 2;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  top: 0;
-}
-
 .logo img {
   display: flex;
   width: 70px;
   height: 60px;
 }
 
-.diff.dish {
-  margin: 100px;
-  padding: 100px;
+.dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .first-row {
@@ -82,7 +49,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
   margin-top: 10%;
 }
 
