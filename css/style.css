@@ -35,7 +35,8 @@ a,
 
 /* line 20, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -54,12 +55,16 @@ a:hover {
 /* line 34, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none;
 }
 
 /* line 39, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Satisfy", cursive;
   color: #000000;
 }
@@ -215,9 +220,9 @@ h3 {
   left: 50px;
   font-size: 15px;
   line-height: 50px;
-  border: 1px solid #918DFE;
+  border: 1px solid #918dfe;
   left: 150px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* line 249, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
@@ -246,7 +251,7 @@ h3 {
 
 /* line 274, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
-  color: #615CFD;
+  color: #615cfd;
   background: #fff;
   border: 1px solid transparent;
 }
@@ -321,7 +326,7 @@ h3 {
   background-size: 100% 100%;
   border-radius: 50px;
   background-size: 101% 100%;
-  background: #FFC000;
+  background: #ffc000;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -332,7 +337,7 @@ h3 {
 
 /* line 45, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
-  color: #FFC000;
+  color: #ffc000;
   border: 1px solid #fff;
   background: #fff;
 }
@@ -1049,7 +1054,7 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 30px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -1060,7 +1065,7 @@ h3 {
   background: #fff;
   width: 50px;
   height: 2px;
-  content: '';
+  content: "";
   left: -67px;
   top: 50%;
   margin-bottom: -1px;
@@ -1301,24 +1306,20 @@ h3 {
   display: inline-block;
 }
 
-/* line 54, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_recipe_details.scss */
 .recepie_details_area .recepies_info .resepies_details ul li p i {
   color: #ffcc00;
 }
 
-/* line 62, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_recipe_details.scss */
 .recepie_details_area .recepies_info .links a {
   color: #cccccc;
   font-size: 14px;
   margin-right: 10px;
 }
 
-/* line 66, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_recipe_details.scss */
 .recepie_details_area .recepies_info .links a:hover {
   color: #000;
 }
 
-/* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_recipe_details.scss */
 .recepie_details_area .recepies_text p {
   font-size: 14px;
   color: #777777;
@@ -1331,109 +1332,6 @@ h3 {
   margin-bottom: 0;
 }
 
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-}
-
-/* line 6, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 10, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 13, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 15, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 20, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-@media (max-width: 767px) {
-  /* line 20, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-}
-
-/* line 30, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 37, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 39, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 44, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 51, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-@media (max-width: 767px) {
-  /* line 51, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-}
-
-/* line 61, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-@media (max-width: 767px) {
-  /* line 61, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-}
-
-/* line 74, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 77, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_case_details.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-/* line 12, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 15, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 20, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 33, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 36, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 41, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 49, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 54, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 59, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 64, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-@media (max-width: 767px) {
-  /* line 64, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 64, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-/* line 76, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 81, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 86, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-@media (max-width: 767px) {
-  /* line 86, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-/* line 98, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 103, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-/* line 112, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-
-@media (max-width: 767px) {
-  /* line 112, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
-}
-
-/* line 118, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_gallery.scss */
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -1454,29 +1352,6 @@ h3 {
   background: #000000;
 }
 
-/* line 7, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 12, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-}
-
-/* line 20, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 25, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-@media (max-width: 767px) {
-  /* line 25, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-}
-
-/* line 30, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 35, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 39, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 45, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top {
   padding-top: 150px;
   padding-bottom: 40px;
@@ -1520,13 +1395,6 @@ h3 {
   }
 }
 
-/* line 69, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-@media (max-width: 767px) {
-  /* line 69, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-}
-
-/* line 79, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
   color: #777777;
   font-size: 14px;
@@ -1534,29 +1402,14 @@ h3 {
   line-height: 36px;
 }
 
-/* line 85, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a {
   color: #777777;
 }
 
 /* line 87, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a:hover {
-  color: #FF008C;
+  color: #ff008c;
 }
-
-/* line 93, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 99, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 102, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 108, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 112, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 116, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
-
-/* line 124, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
   color: #919191;
   font-size: 13px;
@@ -1571,7 +1424,7 @@ h3 {
 
 /* line 131, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #FFC000;
+  color: #ffc000;
 }
 
 /* line 137, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
@@ -1612,7 +1465,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #000000;
-  background: #FFC000;
+  background: #ffc000;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -1662,7 +1515,7 @@ h3 {
 
 /* line 202, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #FFC000;
+  color: #ffc000;
 }
 
 /* line 207, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
@@ -1686,7 +1539,7 @@ h3 {
 /* line 217, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
   font-size: 15px;
-  color: #C3B2F0;
+  color: #c3b2f0;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -1699,24 +1552,15 @@ h3 {
   margin-right: 1px;
 }
 
-/* line 230, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #000000 !important;
-  background: #FFC000;
+  background: #ffc000;
 }
 
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
   background-image: url(../img/banner/bradcam.png);
 }
 
-/* line 4, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 7, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 10, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 13, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
   background-position: bottom;
@@ -1765,44 +1609,6 @@ h3 {
 .bradcam_area p a:hover {
   color: #fff;
 }
-
-/* line 58, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 65, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 69, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 81, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 85, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 92, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 96, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 100, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 111, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 115, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 153, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 168, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 177, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 183, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 191, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 196, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 201, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -1812,52 +1618,9 @@ h3 {
   overflow: hidden;
   position: fixed;
   background: #000000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
-/* line 214, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 216, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 219, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 221, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 226, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 229, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 234, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 244, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 249, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_bradcam.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 5, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 9, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 13, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 19, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 21, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 23, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 28, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 33, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 40, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 43, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 50, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_department.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_tesmonial.scss */
 .customer_feedback_area {
   padding-top: 200px;
   padding-bottom: 110px;
@@ -1979,7 +1742,7 @@ h3 {
 .customer_feedback_area .owl-dots div {
   width: 20px;
   height: 4px;
-  background: #EEEEEE;
+  background: #eeeeee;
   display: inline-block;
   margin: 0 5px;
 }
@@ -1993,186 +1756,8 @@ h3 {
 
 /* line 77, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_tesmonial.scss */
 .customer_feedback_area .owl-dots div.active {
-  background: #FFC000;
+  background: #ffc000;
 }
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-}
-
-/* line 11, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-
-@media (max-width: 767px) {
-  /* line 11, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-}
-
-/* line 19, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_discuss.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 4, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 15, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 15, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 24, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 32, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 32, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 42, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 50, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 53, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 59, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 62, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (max-width: 767px) {
-  /* line 59, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 59, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (max-width: 767px) {
-  /* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 73, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 85, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 89, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (max-width: 767px) {
-  /* line 89, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-@media (max-width: 767px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (max-width: 767px) {
-  /* line 110, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 110, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-}
-
-/* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_service.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-}
-
-/* line 8, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-/* line 11, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-/* line 14, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-@media (max-width: 767px) {
-  /* line 14, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-}
-
-/* line 32, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-@media (max-width: 767px) {
-  /* line 32, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-}
-
-/* line 42, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-
-@media (max-width: 767px) {
-  /* line 42, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-}
-
-@media (min-width: 320px) and (max-width: 991px) {
-  /* line 51, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_video.scss */
-}
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-}
-
-/* line 13, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 25, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 29, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-@media (max-width: 767px) {
-  /* line 29, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 29, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 29, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-}
-
-/* line 43, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 47, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 49, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 54, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 66, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 74, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 80, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 85, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_portfolio.scss */
-
-/* line 1, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
 .download_app_area {
   padding-top: 100px;
   padding-bottom: 320px;
@@ -2435,7 +2020,13 @@ h3 {
 }
 
 /* line 142, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a .download_link .store h5 {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a
+  .download_link
+  .store
+  h5 {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -2443,7 +2034,13 @@ h3 {
 }
 
 /* line 148, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a .download_link .store p {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a
+  .download_link
+  .store
+  p {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 300;
@@ -2453,17 +2050,27 @@ h3 {
 
 /* line 157, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
 .download_app_area .download_text .download_android_apple a.active {
-  background: #FFC000;
+  background: #ffc000;
   border-color: transparent;
 }
 
 /* line 161, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a.active .download_link i {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a.active
+  .download_link
+  i {
   color: #000000;
 }
 
 /* line 164, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a.active .download_link p {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a.active
+  .download_link
+  p {
   color: #000;
 }
 
@@ -2474,27 +2081,47 @@ h3 {
 }
 
 /* line 172, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a.active:hover .download_link i {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a.active:hover
+  .download_link
+  i {
   color: #eee;
 }
 
 /* line 175, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a.active:hover .download_link p {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a.active:hover
+  .download_link
+  p {
   color: #888;
 }
 
 /* line 181, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
 .download_app_area .download_text .download_android_apple a:hover {
-  background: #FFC000;
+  background: #ffc000;
 }
 
 /* line 184, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a:hover .download_link i {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a:hover
+  .download_link
+  i {
   color: #000000;
 }
 
 /* line 187, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_download.scss */
-.download_app_area .download_text .download_android_apple a:hover .download_link p {
+.download_app_area
+  .download_text
+  .download_android_apple
+  a:hover
+  .download_link
+  p {
   color: #000;
 }
 
@@ -3265,7 +2892,8 @@ h3 {
 }
 
 /* line 16, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -3470,7 +3098,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -4299,7 +3927,8 @@ h6 {
 
 /* line 798, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4341,7 +3970,8 @@ h6 {
 
 /* line 835, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4389,7 +4019,8 @@ h6 {
 
 /* line 876, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4431,7 +4062,8 @@ h6 {
 
 /* line 913, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4473,7 +4105,8 @@ h6 {
 
 /* line 950, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4521,7 +4154,8 @@ h6 {
 
 /* line 991, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4688,7 +4322,8 @@ h6 {
 }
 
 /* line 14, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #ffc000 0%, #ffc000 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4716,7 +4351,7 @@ h6 {
 
 /* line 36, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -4763,7 +4398,7 @@ h6 {
 
 /* line 84, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -4804,7 +4439,7 @@ h6 {
 
 /* line 135, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -5552,7 +5187,7 @@ h6 {
 
 /* line 1264, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -5594,7 +5229,7 @@ h6 {
 
 /* line 1299, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -5633,55 +5268,43 @@ h6 {
   padding-bottom: 48px;
 }
 
-/* line 1344, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .comment-list:last-child {
   padding-bottom: 0px;
 }
 
-/* line 1348, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
-
 @media (max-width: 413px) {
-  /* line 1354, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
-  /* line 1358, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
-  /* line 1362, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
   }
 }
 
-/* line 1369, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .thumb {
   margin-right: 20px;
 }
 
-/* line 1372, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .thumb img {
   width: 70px;
   border-radius: 50%;
 }
 
-/* line 1378, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .date {
   font-size: 14px;
   color: #999999;
   margin-bottom: 0;
   margin-left: 20px;
 }
-
-/* line 1385, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .comment {
   margin-bottom: 10px;
   color: #777777;
   font-size: 15px;
 }
 
-/* line 1391, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comments-area .btn-reply {
   background-color: transparent;
   color: #888888;
@@ -5691,7 +5314,6 @@ h6 {
   font-weight: 400;
 }
 
-/* line 1408, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form {
   border-top: 1px solid #eee;
   padding-top: 45px;
@@ -5699,44 +5321,37 @@ h6 {
   margin-bottom: 20px;
 }
 
-/* line 1416, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .form-group {
   margin-bottom: 30px;
 }
 
-/* line 1420, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form h4 {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 22px;
 }
 
-/* line 1428, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .name {
   padding-left: 0px;
 }
 
 @media (max-width: 767px) {
-  /* line 1428, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
   .comment-form .name {
     padding-right: 0px;
     margin-bottom: 1rem;
   }
 }
 
-/* line 1437, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .email {
   padding-right: 0px;
 }
 
 @media (max-width: 991px) {
-  /* line 1437, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
   .comment-form .email {
     padding-left: 0px;
   }
 }
 
-/* line 1445, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .form-control {
   border: 1px solid #f0e9ff;
   border-radius: 5px;
@@ -5746,170 +5361,98 @@ h6 {
   background: transparent;
 }
 
-/* line 1453, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .form-control:focus {
   outline: 0;
   box-shadow: none;
 }
 
-/* line 1458, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .form-control::placeholder {
   font-weight: 300;
   color: #999999;
 }
 
-/* line 1463, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form .form-control::placeholder {
   color: #777777;
 }
 
-/* line 1468, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form textarea {
   padding-top: 18px;
   border-radius: 12px;
   height: 100% !important;
 }
 
-/* line 1474, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1480, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form ::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1486, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form :-ms-input-placeholder {
   /* IE 10+ */
   font-size: 13px;
   color: #777;
 }
 
-/* line 1492, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog.scss */
 .comment-form :-moz-placeholder {
   /* Firefox 18- */
   font-size: 13px;
   color: #777;
 }
 
-/*============ End Blog Single Styles  =============*/
-/**************** blog part css start ****************/
-/* line 2, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 2, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 2, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-/* line 19, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 24, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 24, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 24, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-/* line 40, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 43, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 48, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 48, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 48, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
 }
 
-/* line 72, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 76, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 83, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 86, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+.recipe {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+.recipe img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 97, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+.recipe h3 {
+  font-size: 16px;
+  margin: 10px 0 0;
 }
 
-/* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+.searchContainer {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 119, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-/* line 140, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/* line 150, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-@media (max-width: 576px) {
-  /* line 150, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 150, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 150, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-}
-
-/* line 166, ../../Arafath/CL/CL October/220 Tasty Recipes/HTML/scss/_blog_part.scss */
-
-/*# sourceMappingURL=style.css.map */
