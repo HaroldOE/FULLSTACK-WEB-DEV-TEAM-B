@@ -12,6 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+QLD:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <title>About</title>
   </head>
   <body class="m-0 p-0">
@@ -41,12 +47,22 @@
 
             <!-- Nav Links -->
             <ul class="hidden md:flex gap-6 font-medium">
-              <li><a href="#" class="hover:text-orange-500">Home</a></li>
-              <li><a href="#" class="hover:text-orange-500">About</a></li>
-              <li><a href="#" class="hover:text-orange-500">Recipes</a></li>
-              <li><a href="#" class="hover:text-orange-500">Blog</a></li>
-              <li><a href="#" class="hover:text-orange-500">Page</a></li>
-              <li><a href="#" class="font-semibold">Contact</a></li>
+              <li>
+                <a href="#" class="hover:text-orange-500 not-italic">Home</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-500 not-italic">About</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-500 not-italic">Recipes</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-500 not-italic">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-500 not-italic">Page</a>
+              </li>
+              <li><a href="#" class="font-semibold not-italic">Contact</a></li>
             </ul>
 
             <!-- Search -->
@@ -73,7 +89,7 @@
 
     <!-- About Section -->
     <section
-      class="flex flex-col md:flex-row justify-center items-center text-center px-6 py-10 gap-8"
+      class="flex flex-col space-y-8 md:space-x-8 md:flex-row justify-center items-center text-center px-20 py-10 gap-8"
     >
       <!-- Left Text -->
       <div class="md:w-1/2">
@@ -112,6 +128,63 @@
             alt="Small 2"
             class="absolute -bottom-4 -right-4 w-30 h-40 object-cover border-2 border-white shadow-md z-10 rounded-md"
           />
+        </div>
+      </div>
+    </section>
+
+    <!-- download section -->
+    <section
+      class="flex flex-col md:flex-row justify-center items-center text-center px-20 py-10 space-y-20 md:space-x-20"
+    >
+      <div class="md:w-1/2 justify-center">
+        <div
+          class="relative w-80 h-[25rem] overflow-visible flex justify-center"
+        >
+          <!-- Main Image -->
+          <img
+            src="/src/assets/img/big_1.png"
+            alt="Main"
+            class="w-full h-full object-cover rounded-lg shadow-lg"
+          />
+
+          <!-- Small Image 1 (Top-left, outside) -->
+          <img
+            src="../assets/img/small_sm1.png"
+            alt="Small 1"
+            class="absolute -top-4 -left-4 w-30 h-40 object-cover border-2 border-white shadow-md z-10 rounded-md"
+          />
+
+          <!-- Small Image 2 (Bottom-right, outside) -->
+          <img
+            src="/src/assets/img/sm2.png"
+            alt="Small 2"
+            class="absolute -bottom-4 -right-4 w-30 h-40 object-cover border-2 border-white shadow-md z-10 rounded-md"
+          />
+        </div>
+      </div>
+      <div class="md:w-1/2 justify-center space-y-4">
+        <h3 class="text-left text-3xl font-bold mb-4">
+          Download app to get recipes from Everywhere
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ea
+          doloremque itaque. Obcaecati, nam praesentium.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          expedita velit accusantium voluptatem et tenetur.
+        </p>
+        <div class="flex space-x-4">
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Button 1
+          </button>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Button 2
+          </button>
         </div>
       </div>
     </section>
