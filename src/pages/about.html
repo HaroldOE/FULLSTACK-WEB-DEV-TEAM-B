@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../styles.css" />
     <link
       rel="stylesheet"
@@ -12,43 +12,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>about</title>
+    <title>About</title>
   </head>
-  <body>
-
+  <body class="m-0 p-0">
+    <!-- Header -->
     <header
       class="relative h-screen bg-cover bg-center"
       style="background-image: url('../assets/img/banner.png')"
     >
-      <!-- Dark Overlay -->
-      <div class="absolute inset-0 bg-black/60 z-0">
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
 
-      <!-- Content on top of background -->
-      <div class="relative z-10">
+      <!-- Content on top -->
+      <div class="relative z-80">
         <!-- Navigation Bar -->
-        <nav class="px-6 py-4 bg-black text-white fixed top-0 right-0 left-0">
+        <nav
+          class="px-6 py-4 bg-black text-white fixed top-0 right-0 left-0 z-50"
+        >
           <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
             <!-- Logo -->
-            <div class="flex items-center">
-              <a href="#">
-                <img
-                  src="../assets/img/logo.png"
-                  alt="Logo"
-                  class="h-16 w-auto"
-                />
-              </a>
-            </div>
+            <a href="#">
+              <img
+                src="../assets/img/logo.png"
+                alt="Logo"
+                class="h-16 w-auto"
+              />
+            </a>
 
-            <!-- Navigation Links -->
-            <ul class="hidden md:flex gap-6 font-medium text-white">
+            <!-- Nav Links -->
+            <ul class="hidden md:flex gap-6 font-medium">
               <li><a href="#" class="hover:text-orange-500">Home</a></li>
               <li><a href="#" class="hover:text-orange-500">About</a></li>
               <li><a href="#" class="hover:text-orange-500">Recipes</a></li>
               <li><a href="#" class="hover:text-orange-500">Blog</a></li>
               <li><a href="#" class="hover:text-orange-500">Page</a></li>
-              <li>
-                <a href="#" class="text-white font-semibold">Contact</a>
-              </li>
+              <li><a href="#" class="font-semibold">Contact</a></li>
             </ul>
 
             <!-- Search -->
@@ -59,61 +57,80 @@
                   placeholder="Search..."
                   class="w-32 pl-4 pr-10 py-2 rounded-full text-sm bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-400"
                 />
-    
+              </form>
+            </div>
+          </div>
+        </nav>
 
-      </div>
-    </nav>
-<div class="flex items-center justify-center h-[70vh] text-center px-6">
-          <h1 class="text-5xl md:text-6xl font-bold justify-center text-white">
-            About Us
-          </h1>
+        <!-- Hero Text -->
+        <div
+          class="flex flex-col items-center justify-center h-[70vh] text-center px-6"
+        >
+          <h1 class="text-5xl md:text-6xl font-bold text-white">About Us</h1>
         </div>
       </div>
     </header>
 
-    <div class="flex-row justify-center items-center text-center px-6 py-10">
-      <div class="text-center">
-        <h3 class="text-3xl font-bold mb-4">
-          Recipe videos that never
-          <br>
-          misses any portion
-            </h3>
-        <p class="text-gray-600 mb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas iste temporibus sapiente debitis ullam eum animi harum illum, non voluptatibus necessitatibus maiores quisquam mollitia accusantium vel labore tempora sint.
-      </p>
-    </div>
-    </div>
-    <!--recipe video-->
-<div class="recipies-videos-area">
-  <div class="container">
-    <div class="flex-row">
-      <div class="col-xl-6 col-lg-6 col-md-6">
-        <div class="recipie_info">
-          <h3 class="text-3xl font-bold mb-4 >Recipe videos that never misses any portion">Recipe videos that never misses any portion </h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ea ut asperiores, amet non quod id repellendus veniam iusto itaque cum doloremque fugiat! Corporis repellendus, eius placeat harum facilis delectus?</p>
+    <!-- About Section -->
+    <section
+      class="flex flex-col md:flex-row justify-center items-center text-center px-6 py-10 gap-8"
+    >
+      <!-- Left Text -->
+      <div class="md:w-1/2">
+        <h3 class="text-left text-3xl font-bold mb-4">
+          Recipe videos that never <br />
+          miss any portion
+        </h3>
+        <p class="text-left text-gray-600 mb-6 text-sm">
+          Inappropriate behavior is often laughed off as “boys will be boys.”
+          Women face higher conduct standards especially in the workplace.
+          That’s why it’s crucial that, as women, we speak up and support one
+          another.
+        </p>
+      </div>
+
+      <!-- Right Images -->
+      <div class="md:w-1/2 flex justify-center">
+        <div class="relative w-80 h-[25rem] overflow-visible">
+          <!-- Main Image -->
+          <img
+            src="../assets/img/big.png"
+            alt="Main"
+            class="w-full h-full object-cover rounded-lg shadow-lg"
+          />
+
+          <!-- Small Image 1 (Top-left, outside) -->
+          <img
+            src="../assets/img/small_1.png"
+            alt="Small 1"
+            class="absolute -top-4 -left-4 w-30 h-40 object-cover border-2 border-white shadow-md z-10 rounded-md"
+          />
+
+          <!-- Small Image 2 (Bottom-right, outside) -->
+          <img
+            src="/src/assets/img/2_1.png"
+            alt="Small 2"
+            class="absolute -bottom-4 -right-4 w-30 h-40 object-cover border-2 border-white shadow-md z-10 rounded-md"
+          />
         </div>
       </div>
-      </div>
-  </div>
-  <img src="/src/assets/img/recpie_1.png" alt="Description" style="width: 150px; height: auto; margin-right: 20px;">
+    </section>
 
-</div>     
+    <!-- Footer -->
     <footer class="bg-black text-white py-10">
       <div class="max-w-7xl mx-auto px-6 space-y-10">
-        <!-- Top Row: Logo + Centered Nav + Search Bar -->
+        <!-- Footer Top Row -->
         <div class="flex items-center justify-between w-full">
-          <!-- Logo (Left) -->
           <div class="w-1/3 flex justify-start">
             <a href="#">
               <img src="../assets/img/logo.png" alt="Logo" class="h-10" />
             </a>
           </div>
+        </div>
 
-          <!-- Nav (Center) -->
-          
-        <!-- Bottom Row: Columns (Left) + Email Form (Right) -->
+        <!-- Footer Bottom Grid -->
         <div class="flex flex-col md:flex-row justify-between gap-10 mt-10">
-          <!-- Left: 4 Columns -->
+          <!-- Grid Columns -->
           <div
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-sm text-gray-300 flex-1"
           >
@@ -155,9 +172,8 @@
             </div>
           </div>
 
-          <!-- Right: Email Subscription Section -->
+          <!-- Email Subscription -->
           <div class="flex flex-col justify-start gap-6 w-full md:w-1/3">
-            <!-- Email Subscription -->
             <div class="text-sm text-right w-full">
               <p class="text-white mb-2">
                 You can trust us. We only send promo offers.
@@ -182,7 +198,7 @@
           </div>
         </div>
 
-        <!-- Bottom Note -->
+        <!-- Copyright -->
         <div class="text-center text-xs text-gray-400 mt-10">
           &copy; 2025 Tasty Recipes. All rights reserved.
         </div>
