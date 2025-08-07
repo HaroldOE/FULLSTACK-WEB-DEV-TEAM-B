@@ -14,6 +14,23 @@ async function getRecipe(params) {
 
     displayRecipes(data.results);
   } catch (error) {
-    console.error;
+    console.error("process failed:", error);
   }
+}
+
+function displayRecipes(x) {
+  const container = document.getElementById("container");
+  container.innerHTML = ""; //clear previous results
+
+  x.forEach((recipe) => {
+    const recipeCard = document.createElement("div");
+    recipeCard.classList.add("recipe-card");
+
+    recipeCard.innerHTML = `
+        <img src="${recipe.image}" alt="${recipe.tittle}" />
+        <h3>${recipe.tittle}</h3>
+        `;
+
+    container.appendChild(recipeCard);
+  });
 }
