@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact</title>
+  </head>
+  <body class="min-h-screen text-white font-sans">
+    <!-- Full Hero Section including nav -->
+    <header
+      class="relative h-screen bg-cover bg-center"
+      style="background-image: url('../assets/img/banner.png')"
+    >
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
+
+      <!-- Content on top of background -->
+      <div class="relative z-10">
+        <!-- Navigation Bar -->
+        <nav class="px-6 py-4">
+          <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+            <!-- Logo -->
+            <div class="flex items-center">
+              <a href="#">
+                <img
+                  src="../assets/img/logo.png"
+                  alt="Logo"
+                  class="h-16 w-auto"
+                />
+              </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="hidden md:flex gap-6 font-medium text-white">
+              <li><a href="#" class="hover:text-orange-500">Home</a></li>
+              <li><a href="#" class="hover:text-orange-500">About</a></li>
+              <li><a href="#" class="hover:text-orange-500">Recipes</a></li>
+              <li><a href="#" class="hover:text-orange-500">Blog</a></li>
+              <li><a href="#" class="hover:text-orange-500">Page</a></li>
+              <li>
+                <a href="#" class="text-orange-500 font-semibold">Contact</a>
+              </li>
+            </ul>
+
+            <!-- Search -->
+            <div class="hidden md:block">
+              <form action="#" class="relative">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  class="w-32 pl-4 pr-10 py-2 rounded-full text-sm bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                />
+                <button type="submit" class="absolute right-2 top-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-gray-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1116.65 16.65z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero Heading -->
+        <div class="flex items-center justify-center h-[70vh] text-center px-6">
+          <h1 class="text-4xl md:text-6xl font-bold font-[italian_cursive]">
+            Contact Us
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white">
+      <div
+        class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start"
+      >
+        <!-- Contact Form -->
+        <form class="space-y-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+            />
+          </div>
+          <input
+            type="text"
+            placeholder="Subject"
+            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+          />
+          <textarea
+            rows="6"
+            placeholder="Message"
+            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-orange-500 text-white font-semibold px-6 py-3 rounded-md hover:bg-orange-600 transition"
+          >
+            Send Message
+          </button>
+        </form>
+
+        <!-- Contact Details -->
+        <div class="space-y-8">
+          <div>
+            <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+            <p class="text-gray-600 mb-2">Address:</p>
+            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+          </div>
+          <div>
+            <p class="text-gray-600">Phone:</p>
+            <p>
+              <a href="tel:+1235235598" class="text-orange-500 hover:underline"
+                >+ 1235 2355 98</a
+              >
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-600">Email:</p>
+            <p>
+              <a
+                href="mailto:info@yoursite.com"
+                class="text-orange-500 hover:underline"
+                >info@yoursite.com</a
+              >
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-600">Website:</p>
+            <p>
+              <a href="#" class="text-orange-500 hover:underline"
+                >yoursite.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+              <img src="../assets/img/logo.png" alt="Logo" class="h-10" />
+            </a>
+          </div>
+
+          <!-- Nav (Center) -->
+          <nav class="w-1/3 flex justify-center">
+            <ul class="flex flex-wrap gap-6 text-sm font-medium">
+              <li><a href="#" class="hover:text-orange-500">Home</a></li>
+              <li><a href="#" class="hover:text-orange-500">About</a></li>
+              <li><a href="#" class="hover:text-orange-500">Recipes</a></li>
+              <li><a href="#" class="hover:text-orange-500">Blog</a></li>
+              <li><a href="#" class="hover:text-orange-500">Pages</a></li>
+              <li><a href="#" class="text-orange-500">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- Search Bar (Right) -->
+          <div class="w-1/3 flex justify-end">
+            <form action="#">
+              <input
+                type="text"
+                placeholder="🔍"
+                class="w-10 h-10 pl-3 pr-3 py-2 rounded-md text-black text-sm focus:outline-none"
+              />
+            </form>
+          </div>
+        </div>
+
+        <!-- Bottom Row: Columns (Left) + Email Form (Right) -->
+        <div class="flex flex-col md:flex-row justify-between gap-10 mt-10">
+          <!-- Left: 4 Columns -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-sm text-gray-300 flex-1"
+          >
+            <div>
+              <h3 class="text-white font-semibold mb-2">About Us</h3>
+              <p>
+                Tasty Recipes is your daily food inspiration site. We share
+                delicious recipes and kitchen tips.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-white font-semibold mb-2">Categories</h3>
+              <ul class="space-y-1">
+                <li>Breakfast</li>
+                <li>Lunch</li>
+                <li>Dinner</li>
+                <li>Desserts</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-white font-semibold mb-2">Contact Info</h3>
+              <ul class="space-y-1">
+                <li>Email: info@tastyrecipes.com</li>
+                <li>Phone: +234 123 456 7890</li>
+                <li>Location: Lagos, Nigeria</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-white font-semibold mb-2">Quick Links</h3>
+              <ul class="space-y-1">
+                <li>
+                  <a href="#" class="hover:text-orange-500">Submit Recipe</a>
+                </li><footer class="bg-black text-white py-10">
+      <div class="max-w-7xl mx-auto px-6 space-y-10">
+        <!-- Top Row: Logo + Centered Nav + Search Bar -->
+        <div class="flex items-center justify-between w-full">
+          <!-- Logo (Left) -->
+          <div class="w-1/3 flex justify-start">
+            <a href="#">
+                <li><a href="#" class="hover:text-orange-500">FAQs</a></li>
+                <li>
+                  <a href="#" class="hover:text-orange-500">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right: Email Subscription Section -->
+          <div class="flex flex-col justify-start gap-6 w-full md:w-1/3">
+            <!-- Email Subscription -->
+            <div class="text-sm text-right w-full">
+              <p class="text-white mb-2">
+                You can trust us. We only send promo offers.
+              </p>
+              <form
+                action="#"
+                class="flex flex-col sm:flex-row gap-3 justify-end"
+              >
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="px-4 py-2 rounded-md text-black w-full sm:w-64 focus:outline-none"
+                />
+                <button
+                  type="submit"
+                  class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Note -->
+        <div class="text-center text-xs text-gray-400 mt-10">
+          &copy; 2025 Tasty Recipes. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
